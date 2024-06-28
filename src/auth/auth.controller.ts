@@ -19,8 +19,10 @@ export class AuthController {
   }
 
   @Post('register')
-  async register(@Body() createUserDto: CreateUserDto) {
-    return this.authService.register(createUserDto);
+  async register() {
+    // @Body() createUserDto: CreateUserDto
+    // return this.authService.register(createUserDto);
+    return;
   }
 
   @Post('validate-token')
