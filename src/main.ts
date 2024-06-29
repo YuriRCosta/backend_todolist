@@ -13,7 +13,7 @@ async function bootstrap() {
   //   }),
   // );
   app.enableCors({
-    origin: 'http://localhost:3000', // Altere para o URL do seu frontend
+    origin: 'https://frontend-todolist-five.vercel.app', // Altere para o URL do seu frontend
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
   });
